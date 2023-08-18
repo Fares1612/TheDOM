@@ -1,0 +1,49 @@
+body{
+    min-height: 100vh;
+}
+main{
+    width: 100%;
+}
+.d-block{
+    width: 100%;
+    height: 90vh;
+}
+.total{
+    width: 100%;
+    display: inline-flex;
+    padding-top: 0.5rem;
+    background-color: blanchedalmond;
+}
+#totalPrice,.btnOrder{
+    color: brown;
+    font-family:Roboto Condensed ;
+}
+
+.btnOrder{
+    float: right;
+    margin-left: 80%;
+}
+
+.imgOne{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.row-product{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+    align-items: center;
+    padding: 0 40px;
+    margin-top: 15px;
+    border-bottom: 1px solid black;
+}
+
+.fa-trash{
+    color:red;
+}
+
+.red{
+    color: red;
+}
